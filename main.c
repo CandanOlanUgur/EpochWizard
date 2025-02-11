@@ -68,6 +68,7 @@ int main(void) {
         if (epoch2 < epoch1) {
             fark = epoch1 - epoch2;
             printf("Iki zaman diliminin epoch zamanlarinin farki: %ld\n", fark);
+            break;
         }
 
 
